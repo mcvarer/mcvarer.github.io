@@ -1,0 +1,3 @@
+[submodule "modules/simple-blog-bootstrap"]
+	path = modules/simple-blog-bootstrap
+	url = git@github.com:mcvarer/simple-blog-bootstrap.git
