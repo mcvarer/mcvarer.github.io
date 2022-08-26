@@ -66,4 +66,14 @@ $(document).ready(function() {
 
     scrollTo($.attr(this, "href"));
   });
+  
+  $("#sidebar a.btn[href='#experience']").on("click", function (event) {
+    event.preventDefault();
+    scrollTo($.attr(this, "href"));
+  });
+
+  $("#sidebar a.btn[href='#projects']").on("click", function (event) {
+    event.preventDefault();
+    scrollTo($.attr(this, "href"));
+  });
 });
